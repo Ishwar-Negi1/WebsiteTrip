@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+*{
+	margin:0;padding:0;
+   font-family: 'Poppins', sans-serif; 
+	outline:none;
+	box-sizing:border-box;
+	transition:.4s linear;
+	border:none;
+	text-decoration:none;
+	text-transform:capitalize;
+}
+html{
+	font-size:64.5%;
+	/* overflow-x:hidden;	 */
+}
+
+.btn{
+	display:inline-block;
+	/* background:#bac34e; */
+	color:#fff;
+	font-size:1.7rem;
+	margin:1rem;
+	padding:1rem 0;	
+}
+.btn:hover{
+	background:black;
+}
+.header{
+	/* position:fixed; */
+	top:0;
+	left:0;
+	right:0;
+	padding:1rem 3%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background:#031785;
+	z-index:1000;
+
+	
+}
+.header .logo{
+	font-size:3rem;
+  color: #fff;
+	font-weight:bolder;
+}
+.header .logo i{
+	padding-right:.5rem;
+	color:#BAC34E;
+}
+.header .navbar a{
+	font-size:1.5rem;
+	color: #fff;
+	margin:0 2.2rem;
+	font-weight: bold;
+}
+.header .navbar a:hover{
+	color:#bac34e;
+	
+}
+.header .icons{
+	display: flex;
+}
+.header .icons .btn{
+	color: #fff;
+    border: 1px solid white;
+    padding: 15px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+/* .header .icons div:hover{
+	color:#bac34e;
+	cursor:pointer;
+	
+} */
+
+
+
+
+
+
+
+
+
+

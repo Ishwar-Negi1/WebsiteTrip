@@ -1,0 +1,22 @@
+.footerBar{
+    background-color: rgb(7, 7, 105);
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+.left h1{
+    color: white;
+}
+.left p{
+    color: white;
+    font-size: 15px;
+}
+.right{
+    margin: 42px;
+}
+.footerText{
+    padding: 20px 80px;
+}
+.subscribe{
+    padding:20px 25px!important;
+}

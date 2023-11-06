@@ -1,0 +1,39 @@
+.card-img{
+    width: 25rem!important;
+    margin-bottom: 0!important;
+}
+.card-details{
+    padding: 0px 20px;
+    width: 100%;
+}
+.firstRow{
+    display:flex;
+    justify-content: space-between;
+}
+.secondRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.thirdRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.fourthRow{
+    display: flex;
+    justify-content: space-between;
+}
+.fifthRow{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cancel{
+    color: green;
+    font-weight: bold;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+}
